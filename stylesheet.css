@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: white;
+}
+nav {
+    text-align: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+body#home nav li:nth-child(1) a, body#about nav li:nth-child(2) a, body#shop nav li:nth-child(3) a, body#contact nav li:nth-child(4) a{
+    font-weight: bold;
+    background-color: aqua;
+}
